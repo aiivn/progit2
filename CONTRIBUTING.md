@@ -1,6 +1,6 @@
-# Contributing to Pro Git (2nd Edition)
+# Đóng góp cho Pro Git (Phiên bản thứ 2)
 
-## Licensing
+## Giấy phép
 
 By opening a pull request to this repository, you agree to provide your work under the [project license](LICENSE.asc).
 Also, you agree to grant such license of your work as is required for the purposes of future print editions to @ben and @schacon.
@@ -26,11 +26,13 @@ Open an issue for discussion before you start.
 These changes tend to be very subjective, often only clarifying things for some small percentage of people and it's rarely worth the time to accept them.
 Professional copy editors have already reviewed this content multiple times so while you may have somewhat better taste and grammar than we do it's unlikely that your prose is going to be *so* much better that it's worth changing vast swaths of text.
 
-## Figures
+## Hình minh hoạ
 
-The images in this book were generated using [Sketch 3](https://www.sketchapp.com/), with the [included sketchbook file](diagram-source/progit.sketch).
+Những hình ảnh được sử dụng trong cuốn sách này được thiết kế dựa trên phần mềm [Sketch 3](https://www.sketchapp.com/), bạn có thể xem tập tin thiết kế được đính kèm trong dự án gốc [tại đây](diagram-source/progit.sketch).
 
-To add a figure:
+Để bổ sung một hình ảnh minh hoạ, bạn cần:
+
+1. Thêm một trang mới vào tập tin Sketch. 
 
 1. Add a page to the sketchbook.
 Try to use the included symbols wherever possible.
@@ -38,7 +40,8 @@ Try to use the included symbols wherever possible.
 Give it a name that matches the destination PNG filename, relative from the root of the source directory.
 3. Make sure your slice is set to export at "800w".
 
+**Lưu ý:** Trong dự án chuyển ngữ này, chúng tôi không khuyến khích sử dụng hình ảnh đã được thay đổi.
 
-## Translations
+## Dịch thuật
 
-If you would like to contribute to translating Pro Git into your language, take a look at [TRANSLATING.md](TRANSLATING.md).
+Nếu như bạn mong muốn đóng góp kinh nghiệm dịch thuật của mình vào dự án dịch thuật Pro Git, hãy xem qua tập tin [TRANSLATING.md](TRANSLATING.md).
